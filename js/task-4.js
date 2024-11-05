@@ -1,8 +1,4 @@
-const form = document.querySelector(".login-form")
-form.style.display = "flex";
-form.style.flexDirection = "column"
-form.style.width = "408px"
-form.style.alignItems = "center"
+const form = document.querySelector(".login-form");
 
 form.addEventListener("submit", handSab)
 

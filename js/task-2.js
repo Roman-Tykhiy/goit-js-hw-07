@@ -34,12 +34,6 @@ function imgCri(arr) {
     </li>`
   ).join("");
 }
-imgUl.style.display = "flex";
-imgUl.style.flexWrap = "wrap";
-imgUl.style.gap = "24px";
-imgUl.style.listStyleType = "none";
-imgUl.style.paddingLeft = "0";
-
 imgUl.insertAdjacentHTML("beforeend", imgCri(images));
 
 

@@ -4,7 +4,7 @@ const destroy = document.querySelector(".destroy");
 const box = document.querySelector("#boxes");
 box.style.display = "flex";
 box.style.flexWrap = "wrap";
-box.style.gap = "5px";
+box.style.gap = "44px";
 
 let sizes = 30;
 

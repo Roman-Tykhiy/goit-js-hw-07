@@ -1,0 +1,42 @@
+li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ulbox {
+    border-radius: 8px;
+        padding: 24px;
+        width: 440px;
+        height: 920px;
+        background: #fff;
+}
+
+.item {
+    border-radius: 8px;
+        padding: 16px;
+        background: #f6f6fe;
+        margin-bottom: 24 px;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.33333;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        margin-bottom: 16 px;
+}
+.itemlist {
+    padding-left: 0;
+}
+.itemlistitem {
+border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
