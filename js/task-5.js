@@ -1,9 +1,10 @@
 const widget = document.querySelector(".widget");
 const buton = document.querySelector(".change-color");
-const color = document.querySelector(".color")
+const color = document.querySelector(".color");
 buton.addEventListener("click", () => {
-  widget.style.backgroundColor = `${getRandomHexColor()}`;
-  color.textContent = `${getRandomHexColor()}`;
+  let chengeColor = getRandomHexColor();
+  widget.style.backgroundColor = chengeColor;
+  color.textContent = chengeColor;
   
 });
 

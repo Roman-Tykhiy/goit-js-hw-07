@@ -14,27 +14,30 @@ destroy.addEventListener("click", handDestroy);
 
 function handDestroy() {
   box.innerHTML = "";
-  sizes = 30;
+  input.value = "";
 }
 
 function handCreate() {
+  sizes = 30;
   if (Number(input.value) < 0 || Number(input.value) > 100) {
     console.log("error");
   }
   createBox(+input.value);
 };
+
 function createBox(amount) {
-  const arr = [];
+  let chengeDiv = document.createDocumentFragment();
     for (let i = 0; i < amount; i++) {
       const myBox = document.createElement("div");
       myBox.style.width = `${sizes}px`;
       myBox.style.height = `${sizes}px`;
       myBox.style.backgroundColor = getRandomHexColor();
-      arr.push(myBox);
+      chengeDiv.appendChild(myBox);
       sizes += 15;
+      box.innerHTML = "";
       input.value = "";
   }
-  box.append(...arr);
+  box.append(chengeDiv);
   }
 
 
